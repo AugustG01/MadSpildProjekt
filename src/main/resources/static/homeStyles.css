@@ -51,8 +51,6 @@ h1{
     border-radius: 50%;
     background: #fff;
     display: block;
-    content: '';
-    overflow: hidden;
     position: absolute;
     right: 100px;
     top: 200px;
@@ -60,4 +58,6 @@ h1{
 .facts{
     width: 800px;
     color: antiquewhite;
+    position: absolute;
+
 }
