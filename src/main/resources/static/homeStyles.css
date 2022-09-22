@@ -12,7 +12,7 @@ li {
 
 li a {
     display: flex;
-    color: white;
+    color: antiquewhite;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +29,7 @@ body{
 }
 h1{
     text-align: center;
-    color: white;
+    color: antiquewhite;
 }
 
 
@@ -56,4 +56,8 @@ h1{
     position: absolute;
     right: 100px;
     top: 200px;
+}
+.facts{
+    width: 800px;
+    color: antiquewhite;
 }
