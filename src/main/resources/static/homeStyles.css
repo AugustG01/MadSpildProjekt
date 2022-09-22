@@ -29,6 +29,7 @@ body{
 
 }
 h1{
+    text-align: center;
     color: white;
 }
 
@@ -42,4 +43,17 @@ h1{
     padding: 32px;
     display: flex;
     flex-direction: column;
+
+}
+
+.gif{
+    width: 230px;
+    height: 200px;
+    border-radius: 50%;
+    background: #fff;
+    display: block;
+    content: '';
+    overflow: hidden;
+    position: absolute;
+    right: 50px;
 }
