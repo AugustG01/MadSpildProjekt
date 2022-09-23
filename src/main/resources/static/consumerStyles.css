@@ -59,8 +59,12 @@ h1{
     height: auto;
     transform: scaleX(-1);
     position: absolute;
-    right: 0;
+    right: -200px;
     top: 360px;
+    transition: transform 0.5s;
+}
+.groceries:hover{
+    transform: translateX(-200px) scaleX(-1);
 }
 
 .cooking{
@@ -74,3 +78,4 @@ h1{
     top: 1000px;
     float: right;
 }
+
