@@ -79,10 +79,16 @@ body{
 .card3{
     background-image: url("https://cdb.arla.com/api/assets/arla-dk/b353d6bb-b673-4345-afba-f32ed2d7c4ed/2400x1000_6_gode_rad_til_at_undga_madspild_madspild.jpg?width=1280&height=650&mode=cropupsize&quality=90");
 }
+.card4{
+    background-image: url("https://thehub-io.imgix.net/files/s3/20191014152616-a00562988e2c2f432b189c699985644c.jpg?w=1600&h=900");
+}
 
 .card:hover{
     transform: translateY(-10px);
 }
-h5{
-    color: #253a52;
+
+section{
+    display: flex;
+    width:80%;
+    margin: 0 auto;
 }
