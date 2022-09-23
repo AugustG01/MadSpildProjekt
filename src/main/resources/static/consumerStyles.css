@@ -53,3 +53,24 @@ h1{
     float: left;
 
 }
+
+.groceries{
+    width: 520px;
+    height: auto;
+    transform: scaleX(-1);
+    position: absolute;
+    right: 0;
+    top: 360px;
+}
+
+.cooking{
+    width: 425px;
+    height: auto;
+    border-radius: 50%;
+    background: #fff;
+    display: block;
+    position: absolute;
+    right: 35px;
+    top: 1000px;
+    float: right;
+}
