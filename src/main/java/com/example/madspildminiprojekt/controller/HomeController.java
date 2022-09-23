@@ -17,4 +17,9 @@ public class HomeController {
     public String company(){
         return "company";
     }
+
+    @GetMapping("/consumer")
+    public String consumer(){
+        return "consumer";
+    }
 }
